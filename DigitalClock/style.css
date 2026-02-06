@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(8, 7, 7);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+.container .label span{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.container #clock{
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+}
