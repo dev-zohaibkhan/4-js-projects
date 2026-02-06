@@ -1,49 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #7eb5e6;
+body {
+  background-color: #7eb5e6;
 }
-.container{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
-.container form{
-    margin-top: 20px;
-    border: 2px solid blue;
-    padding: 20px;
-    border-radius: 10px;
+.container form {
+  margin-top: 20px;
+  border: 2px solid blue;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px blue;
 }
-.container form #inputs input{
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid blue;
-    outline: none;
-    margin: 5px 0;
+.container form #inputs input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid blue;
+  outline: none;
+  margin: 5px 0;
 }
-.container form button{
-    padding: 10px 20px;
-    border-radius: 10px;
-    outline: none;
-    border: 2px solid blue;
-    margin: 10px 0;
+.container form button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid blue;
+  margin: 10px 0;
 }
-.container form .btn, #result, #weight-guide{
-    text-align: center;
-    font-size: 18px;
+.container form .btn,
+#result,
+#weight-guide {
+  text-align: center;
+  font-size: 18px;
 }
 .container form #result {
-    font-size: 25px;
-    font-weight: bold;
-    margin: 5px 0;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px 0;
 }
