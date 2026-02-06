@@ -8,6 +8,7 @@ buttons.forEach((button) =>{
         }
         if(e.target.id === "white"){
             body.style.backgroundColor = e.target.id
+            body.style.color = "black"
         }
         if(e.target.id === "blue"){
             body.style.backgroundColor = e.target.id
